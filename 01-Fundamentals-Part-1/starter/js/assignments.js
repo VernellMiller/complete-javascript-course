@@ -67,7 +67,7 @@ language = "English";
 
 console.log("-------------------");   
 
-console.log("Assignment 4");
+console.log("Assignment 4 & 5");
 console.log("-------------------");
    
 /* 
@@ -103,7 +103,7 @@ console.log(description);
 
 console.log("-------------------");   
 
-console.log("Assignment 5");
+console.log("Assignment 6");
 console.log("-------------------");
 
 /* 

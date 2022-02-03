@@ -14,7 +14,7 @@ assign their values according to your own country (population in millions)
 
 let country = "United States of America";
 let continent = "North America";
-let population = 364.29;
+let population = 364290000;
 
 console.log(`I live on the continent of ${continent} in the country ${country}. It has a population of ${population} in million. Where do you live?`);
 
@@ -90,8 +90,8 @@ people speak portuguese'
 */
 let halfPop = population / 2;
 let addPop = population + 1;
-let findlandPop = 1.0;
-const averageCountryPop = 33.0;
+let findlandPop = 100000;
+const averageCountryPop = 330000000;
 const description = `${country} is in ${continent}, and its ${population} people speak ${language}.`;
 
 console.log(`${halfPop} in millions is half the population of ${country}`);
@@ -117,9 +117,10 @@ LECTURE: Taking Decisions: if / else Statements
 */
 
 if (country > averageCountryPop) {
-    console.log(`${country}'s population is above `);
+    console.log(`${country}'s population is above average.`);
 } else {
-    console.log(`${country}'s population is ${(averageCountryPop - population)} million below average`);
+    const remainder = population % averageCountryPop;
+    console.log(`${country}'s population is ${(population - averageCountryPop)} million below average`);
 };
 
 console.log("-------------------");
@@ -154,3 +155,4 @@ console.log('123' < 57);
 console.log(5 + 6 + '4' + 9 - 4 - 2);
 
 console.log("-------------------");
+

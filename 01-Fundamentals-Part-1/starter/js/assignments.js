@@ -1,4 +1,7 @@
- /* 
+console.log("Assignment 1");
+console.log("-------------------");
+
+/* 
 
 LECTURE: Values and Variables
 
@@ -14,6 +17,11 @@ let continent = "North America";
 let population = 364.29;
 
 console.log(`I live on the continent of ${continent} in the country ${country}. It has a population of ${population} in million. Where do you live?`);
+
+console.log("-------------------");
+
+console.log("Assignment 2");
+console.log("-------------------");
 
 /* 
 
@@ -37,35 +45,40 @@ console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
 
+console.log("-------------------");
+
+console.log("Assignment 3");
+console.log("-------------------");
+
 /* 
 
 LECTURE: let, const and var
 
 1. Set the value of 'language' to the language spoken where you live (some
-countries have multiple languages, but just choose one)
-
-2. Think about which variables should be const variables (which values will never change, and which might change?). Then, change these variables to const.
-
-3. Try to change one of the changed variables now, and observe what happens
-
+    countries have multiple languages, but just choose one)
+    
+    2. Think about which variables should be const variables (which values will never change, and which might change?). Then, change these variables to const.
+    
+    3. Try to change one of the changed variables now, and observe what happens
+    
 */
-
+   
 language = "English";
 
+console.log("-------------------");   
 
-
-
-
+console.log("Assignment 4");
+console.log("-------------------");
+   
 /* 
-
+   
 LECTURE: Basic Operators
-
-1. If your country split in half, and each half would contain half the population,
-then how many people would live in each half?
-
+   
+1. If your country split in half, and each half would contain half the population, then how many people would live in each half?
+   
 2. Increase the population of your country by 1 and log the result to the console
-3. Finland has a population of 6 million. Does your country have more people than
-Finland?
+
+3. Finland has a population of 6 million. Does your country have more people than Finland?
 
 4. The average population of a country is 33 million people. Does your country
 have less people than the average country?
@@ -88,5 +101,25 @@ console.log(findlandPop > population);
 console.log(population > averageCountryPop);
 console.log(description);
 
+console.log("-------------------");   
 
+console.log("Assignment 5");
+console.log("-------------------");
 
+/* 
+
+LECTURE: Taking Decisions: if / else Statements
+
+1. If your country's population is greater that 33 million, log a string like this to the console: 'Portugal's population is above average'. Otherwise, log a string like 'Portugal's population is 22 million below average' (the 22 is the average of 33 minus the country's population)
+
+2. After checking the result, change the population temporarily to 13 and then to 130. See the different results, and set the population back to original
+
+*/
+
+if (country > averageCountryPop) {
+    console.log(`${country}'s population is above `);
+} else {
+    console.log(`${country}'s population is ${(averageCountryPop - population)} million below average`);
+};
+
+console.log("-------------------");   

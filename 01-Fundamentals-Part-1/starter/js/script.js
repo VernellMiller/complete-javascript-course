@@ -1,10 +1,10 @@
-let js = "cool";
+// let js = "cool";
 
-if (js === "cool") alert("js is super fun, haha...");
+// if (js === "cool") alert("js is super fun, haha...");
 
-console.log(28 * 20);
+// console.log(28 * 20);
 
-console.log("Alexandria");
+// console.log("Alexandria");
 
-let girlFriend = "Alexandria";
-console.log(girlFriend);
+// let girlFriend = "Alexandria";
+// console.log(girlFriend);

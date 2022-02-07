@@ -189,14 +189,36 @@ situation
 
 */
 
-const numNeighbours = prompt("How many neighbour countries does your country have?");
+// const numNeighbours = prompt("How many neighbour countries does your country have?");
 
-if (numNeighbours == 1) {
+// if (numNeighbours == 1) {
+//     console.log("Only 1 border!")
+// } else if (numNeighbours > 1) {
+//     console.log(`There are ${numNeighbours} borders.`);
+// } else {
+//     console.log("No Borders")
+// }
+
+const numNeighbours = Number(prompt("How many neighbour countries does your country have?"));
+
+if (numNeighbours === 1) {
     console.log("Only 1 border!")
 } else if (numNeighbours > 1) {
     console.log(`There are ${numNeighbours} borders.`);
 } else {
     console.log("No Borders")
 }
+
+console.log("-------------------");
+
+console.log("Assignment 9");
+console.log("-------------------");
+
+if ((language === "english") && (population < 50000000) && (isIsland)) {
+    console.log(`You should live in ${country}.1`)
+} else {
+    console.log(`${country} does not meet your criteria.`)
+}
+
 
 console.log("-------------------");

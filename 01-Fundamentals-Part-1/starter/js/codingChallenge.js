@@ -121,8 +121,8 @@ GOOD LUCK 😀
 
 */
 
-const dolphinsAverage = 96 + 108 + 89 / 3;
-const koalasAverage = 88 + 91 + 110 / 3;
+const dolphinsAverage = (96 + 108 + 89) / 3;
+const koalasAverage = (88 + 91 + 110) / 3;
 
 if (dolphinsAverage > koalasAverage) {
     console.log(`The Dolphins average(${dolphinsAverage}) is greater than The Koalas average(${koalasAverage})`)
@@ -131,7 +131,5 @@ if (dolphinsAverage > koalasAverage) {
 } else {
     console.log(`The Koalas average(${koalasAverage}) is greater than The Dolphins average(${dolphinsAverage})`)
 }
-
-
 
 console.log("-------------------");

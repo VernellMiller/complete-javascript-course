@@ -213,12 +213,38 @@ const bills2 = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 const tips2 = [];
 const totals2 = [];
 
+// for (let i = 0; i < bills2.length; i++) {
+//     tips2.push(calcTip(bills2[i]));
+//     totals2.push(bills2[i] + tips2[i]);
+// }
+
+// console.log(bills2, tips2, totals2);
+
+
 for (let i = 0; i < bills2.length; i++) {
-    tips2.push(calcTip(bills2[i]));
-    totals2.push(bills2[i] + tips2[i]);
+    // stores the tip value in a variable to avoid calculating the tip twice.
+    const tip = calcTip(bills2[i]);
+
+    tips2.push(tip);
+    totals2.push(tip +bills2[i]);
 }
 
-console.log(tips2);
-console.log(totals2);
+console.log(bills2, tips2, totals2);
+
+
+
+const calcAverage2 = function(arr) {
+    let sum = 0;
+
+    for (let i = 0; i < arr.length; i++) {
+        // sum = sum + arr[i];
+        sum += arr[i];
+    }
+    return sum / arr.length;
+}
+
+console.log(calcAverage2([4, 4, 1, 5, 33, 692]));
+console.log(calcAverage2(totals2));
+console.log(calcAverage2(tips2));
 
 console.log("---------------------|");
